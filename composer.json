@@ -1,0 +1,22 @@
+{
+    "name": "wtg/auth",
+    "description": "Auth module for WTG/webshop",
+    "authors": [
+        {
+            "name": "Thomas Wiringa",
+            "email": "thomas.wiringa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WTG\\Auth\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.4.*",
+        "webpatser/laravel-uuid": "2.*",
+        "wtg/customer": "self.version",
+        "wtg/base": "self.version"
+    }
+}
