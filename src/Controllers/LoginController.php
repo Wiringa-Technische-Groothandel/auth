@@ -88,7 +88,7 @@ class LoginController extends Controller
 
         return redirect()
             ->intended(url()->previous())
-            ->with('status', trans('auth::login.success', ['company' => $company->getName()]));
+            ->with('status', trans('auth::login.success', ['name' => $company->getName()]));
     }
 
     /**
